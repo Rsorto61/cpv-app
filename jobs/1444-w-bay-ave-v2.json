@@ -1,0 +1,100 @@
+{
+  "id": "job-1444-w-bay-ave-v2",
+  "jobId": "job-1444-w-bay-ave-v2",
+  "created": "2026-11-09T21:15:00.000Z",
+  "updated": "2026-11-09T21:15:00.000Z",
+  "app": "cpv-uad36-inspect",
+  "version": 3,
+  "status": "Prefilled",
+  "data": {
+    "prefillSrc": [
+      "Public records",
+      "FEMA flood map",
+      "Other"
+    ],
+    "prefillSrc_o": "Public CRMLS IDX aggregators citing CRMLS #OC26192516 (Realatrends/Coldwell/BHHS IDX) \u2014 verify live CRMLS before relying on MLS fields",
+    "street": "1444 W Bay Ave",
+    "city": "Newport Beach",
+    "zip": "92661",
+    "ptype": "SFR Detached",
+    "attach": "Detached",
+    "unitsCount": "1",
+    "pud": "No",
+    "newCon": "No",
+    "view": [
+      "Bay",
+      "Ocean",
+      "Other"
+    ],
+    "view_o": "MLS View also lists Harbor, Coastline, Panoramic, City Lights",
+    "water": "Public",
+    "sewer": "Public",
+    "waterfront": "Yes",
+    "wfBody": "Bay",
+    "wfFeatures": [
+      "Dock",
+      "Other"
+    ],
+    "wfFeatures_o": "MLS remarks cite ~55' and ~42'+ dockage; confirm slip/pier/bulkhead and rights on site/title",
+    "siteNotes": "PUBLIC PREFILL v2 \u2014 structured fields are source-supported only. Corner Lot + Street Level (MLS). Lot 3,850 sf / 0.0884 ac (MLS Assessor); OC GIS Shape__Area ~3,847 sf. APN 047-221-01. Legal: N-TRACT: 626 BLOCK: 1 LOT: 1 (TR 626) \u2014 OC Open GIS. Coastal Zone YES; zoning Single-Unit Residential / R-1 (NB GIS + PropertyShark). FEMA NFHL at geocode: Zone X, 0.2% annual chance, SFHA=F, panel 06059C0381K eff. 3/21/2019. Public marketing: CRMLS OC26192516 withdrawn ~2026-10-30 after last ask $9,995,000 (market evidence only, not a closed sale).",
+    "structures": [
+      {
+        "sid": "Main house",
+        "floors": "2",
+        "yearBuilt": "1949",
+        "ybEst": "No",
+        "heat": [
+          "Forced Warm Air"
+        ],
+        "cooling": "Centralized",
+        "extNotes": "PUBLIC PREFILL. YB 1949; remodel 1991 (MLS remarks). Stories 2 (MLS). HVAC Forced Air + Central Air (MLS/BHHS). Construction method / walls / roof / foundation / windows not sourced \u2014 observe. Elevator + living-room fireplace present per MLS (amenities). GLA conflict 3,641 vs 3,742 \u2014 blank level sf; measure ANSI on site."
+      }
+    ],
+    "units": [
+      {
+        "uid": "Main",
+        "isAdu": "No",
+        "levels": [
+          {
+            "lvl": "L1",
+            "grade": "Above Grade",
+            "rooms": [
+              "Living",
+              "Dining",
+              "Kitchen"
+            ]
+          },
+          {
+            "lvl": "L2",
+            "grade": "Above Grade",
+            "beds": 5,
+            "rooms": [
+              "Loft",
+              "Laundry"
+            ]
+          }
+        ]
+      }
+    ],
+    "ansiNotes": "GLA conflict: 3,641 sf (public/assessor-style) vs 3,742 sf (MLS OC26192516). Aggregate baths: 4 full (MLS/public record). Main Level Bathrooms: 1 (MLS) \u2014 full vs half unknown; NO bath counts entered by level. FinSf by level unknown.",
+    "vsNone": "No",
+    "vs": [
+      {
+        "type": "Garage",
+        "attach": "Attached",
+        "spaces": "3",
+        "notes": "MLS Garage Spaces 3, attached; MLS Parking Spaces 7 total \u2014 verify on site"
+      }
+    ],
+    "amNone": "No",
+    "amWhole": [
+      "Indoor Fireplace",
+      "Elevator"
+    ],
+    "followUp": [
+      "Permits for additions / conversions",
+      "Sketch & ANSI area check"
+    ],
+    "notes": "PREFILL v2 QC 2026-11-09 PT \u2014 PUBLIC PROPERTY FACTS ONLY (records + public MLS/IDX aggregators + public GIS). NOT observed. No opinion of value. Alexander selects comps/value/signature.\n\nSUBJECT \u2014 SOURCE-SUPPORTED\n- Address: 1444 W Bay Ave, Newport Beach, CA 92661, Orange County. Census geocode match; lon -117.9195707, lat 33.6077305; tract GEOID 06059062800.\n- APN: 047-221-01 (04722101). Sources: public MLS aggregators for OC26192516; OC Open GIS LegalLotsAttributeOpenData AssessmentNo=047-221-01.\n- Legal: N-TRACT: 626 BLOCK: 1 LOT: 1; MapNum TR 626; DocNum MM 30/40-41. Source: OC Open GIS.\n- Property type: Single Family Residence / SFR, detached (Common Walls: No Common Walls), Units: 1. Association/HOA: No / $0. Sources: MLS aggregators citing CRMLS OC26192516.\n- Year built: 1949 (public record + MLS, consistent). Remodel 1991 stated in MLS remarks only.\n- Stories/levels: Two (MLS Levels / Stories Total: 2).\n- GLA CONFLICT (do not invent level sf): 3,641 sf public/assessor-style (Redfin public-record chip; PropertyShark building sq ft) vs 3,742 sf on MLS OC26192516 (Living Area Source labeled Assessor). Measure ANSI Z765 on site.\n- Lot: 3,850 sf / 0.0884 ac (MLS Lot Size Source Assessor); OC GIS Shape__Area ~3,847 sf. Lot features: Corner Lot, Street Level (MLS).\n- Beds/baths (aggregates only \u2014 schema levels cannot hold totals without inventing a bath split): 5 bedrooms; 4 full bathrooms (public record + MLS). MLS: All Bedrooms Up; Main Level Bathrooms: 1 (type full vs half NOT stated \u2014 do not allocate fb by level).\n- Rooms from MLS remarks (not observed): main level formal entry, living areas, dining room, kitchen; upstairs loft + wet bar; laundry Upper Level. Structured L1 rooms Living/Dining/Kitchen and L2 beds=5 + Loft/Laundry follow those remarks; bath counts by level left blank.\n- HVAC: Heating Central / Forced Air; Cooling Central Air (MLS/BHHS aggregators) \u2192 structured Forced Warm Air + Centralized. Fuel not stated.\n- Fireplace: Living Room fireplace present (MLS Fireplace Features). Exact count unknown \u2014 not entered as fireplaces count; listed under amenities as feature present.\n- Elevator: present (MLS Interior Features). Exact count unknown \u2014 amenity chip only, no amDetail count.\n- Garage: 3 spaces, attached (MLS Garage Spaces 3). Total parking spaces 7 (MLS) \u2014 verify configuration on site.\n- Pool/Spa: None (MLS).\n- Waterfront: Yes; body Bay/Harbor (MLS View + bayfront remarks). Permanent feature Dock (MLS Exterior Features Dock; remarks ~55' and ~42'+ dockage). Slip vs pier vs bulkhead and access rights not confirmed \u2014 left for site/title.\n- Views (MLS View): Bay, City Lights, Coastline, Harbor, Ocean, Panoramic. Structured: Bay, Ocean, Other (Other text lists remaining MLS view chips). Range of view UAD pick not sourced \u2014 left blank.\n- Utilities sourced: Water Public; Sewer Public (MLS). Electricity/gas service type not explicitly sourced for subject \u2014 left blank.\n- Zoning: Single-Unit Residential / R-1 (PropertyShark). Newport Beach GIS identify: ZONING_DESCRIPTION Single-Unit Residential; GP Single Unit Residential Detached; LCP Single Unit Residential Detached (10.0\u201319.9 DU/AC); Coastal Zone YES; Shore height zone YES; height 24 Flat / 29 Sloped.\n- Flood: FEMA NFHL identify at census point \u2014 FLD_ZONE X, ZONE_SUBTY 0.2 PCT ANNUAL CHANCE FLOOD HAZARD, SFHA_TF F; FIRM_PAN 06059C0381K; EFF_DATE 3/21/2019. PropertyShark also listed AE \u2014 confirm full-parcel intersection (MSC / city flood viewer).\n- Taxes: PropertyShark tax year 2026\u20132027 assessed $1,696,276 (land $1,244,376 + building $451,900); tax figures ~$17,759\u2013$17,833 on page. OC GIS LandVal $1,219,976 + ImprovedVal $443,040 = $1,663,016 (= PropertyShark 2025\u20132026 AV). Confirm current TTC bill.\n- Public marketing history (not a closed sale): CRMLS OC26192516 \u2014 relisted/active Sep 2026; reduced to $9,995,000 on 2026-10-14; withdrawn/hold ~2026-10-30 (Realatrends citing CRMLS).\n- Owner of record: not confirmed on free public pages. Left blank.\n\nNOT IN STRUCTURED FIELDS (missing source or on-site only): occupancy; assignment/loan purpose; ADU count; topography; street type/access; view range; electric/gas; construction method; fireplace/elevator counts; bath counts by level; finished sf by level; exterior wall/roof/foundation/windows; Q/C ratings; photos; dock linear frontage / rights.\n\nCOMP CANDIDATES \u2014 labels for Alexander (prices are data only; no adjustments)\nCURRENT WINDOW (~6\u201312 mo bayfront / same street priority):\n1. 1440 W Bay Ave \u2014 closed 2026-09-09 \u2014 $9,125,000 \u2014 3,264 sf \u2014 4/3 \u2014 ~0.00 mi \u2014 MLS OC26196767 \u2014 https://www.coldwellbankerhomes.com/ca/newport-beach/1440-w-bay-ave/pid_73619270/\n2. 1344 W Bay Ave \u2014 closed 2026-03-20 \u2014 $10,500,000 \u2014 2,922 sf \u2014 4/4 \u2014 ~0.09 mi \u2014 MLS NP26003179 \u2014 https://www.coldwellbankerhomes.com/ca/newport-beach/1344-w-bay-ave/pid_69034765/\n3. 1340 W Bay Ave \u2014 closed 2025-11-18 \u2014 $7,675,000 \u2014 2,053 sf \u2014 4/2.5 \u2014 ~0.10 mi \u2014 MLS LG25193348 \u2014 https://www.realatrends.com/homes/listing/CRMLS/LG25193348/1340-W-Bay-Avenue-Newport-Beach\nOLDER CONTEXTUAL (outside 6\u201312 mo window; ~20 mo):\n4. 1436 W Bay Ave \u2014 closed 2025-03-24 \u2014 $7,200,000 \u2014 2,700 sf \u2014 4/3.5 \u2014 ~0.01 mi \u2014 MLS OC25036574 \u2014 same block APN 047-221-03 \u2014 https://www.realatrends.com/homes/listing/CRMLS/OC25036574/1436-W-Bay-Avenue-Newport-Beach\nSIZE / PRODUCT CONTEXTUAL ONLY (not primary comps):\n5. 812 W Bay Ave \u2014 closed 2026-01-08 \u2014 $19,000,000 \u2014 6,319 sf \u2014 7/8.5 \u2014 ~0.53 mi \u2014 MLS NP25084135 \u2014 double-lot / much larger\n6. 915 W Bay Ave \u2014 closed 2026-10-19 \u2014 $4,921,000 \u2014 2,270 sf \u2014 3/2.5 \u2014 ~0.46 mi \u2014 MLS OC26208176 \u2014 NOT docked bayfront (across from beach; probate/as-is)\n7. 1123 E Balboa Blvd \u2014 closed 2026-10-25 \u2014 $10,900,000 \u2014 2,851 sf \u2014 4/5.5 \u2014 ~1.50 mi \u2014 MLS OC26083583 \u2014 oceanfront new construction\nCRMLS live still required for concessions, DOM, photo rights, and additional bayfront closings."
+  }
+}
